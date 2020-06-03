@@ -9,9 +9,3 @@ def initialize(attributes)
 end
 
 end
-
-bob_attributes = {name: "Bob", hair_color: "Brown"}
-
-bob = Person.new(bob_attributes)
-bob.name       # => "Bob"
-bob.hair_color # => "Brown"
